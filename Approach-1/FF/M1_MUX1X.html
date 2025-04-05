@@ -1,0 +1,422 @@
+<HTML><BODY TEXT="#000000"  LINK="#0000FF" VLINK="#0000FF" ALINK="#00FFFF"><TABLE BORDER=0 CELLSPACING=0 CELLPADDING=5 WIDTH=100%>
+<TR align=center><th align=left><H1><font size=+3>M1_MUX1X</font></H1></th>
+<TR align=center><th align=left></th><th align=right><h5><em><A>Ship Libs Cell Library: Process , Voltage 0.30, Temp 25.00 </A></em></h5></th></TR>
+</TABLE>
+<HR>
+<BR>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<TR ALIGN=LEFT VALIGN=TOP><TH><FONT SIZE=+2><B>Truth Table</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4>
+<TR valign=middle><TH colspan=3><font size=3>INPUT</font></TH>
+<TH colspan=1><font size=3>OUTPUT</font></TH>
+<TR><Th>S</Th><Th>X1</Th><Th>X2</Th><Th>VOUT</Th></TR>
+<TR><Th><font size=2>0</font></Th><Th><font size=2>0</font></Th><Th><font size=2>x</font></Th><Th><font size=2>0</font></Th></TR>
+<TR><Th><font size=2>0</font></Th><Th><font size=2>1</font></Th><Th><font size=2>x</font></Th><Th><font size=2>1</font></Th></TR>
+<TR><Th><font size=2>1</font></Th><Th><font size=2>x</font></Th><Th><font size=2>0</font></Th><Th><font size=2>0</font></Th></TR>
+<TR><Th><font size=2>1</font></Th><Th><font size=2>x</font></Th><Th><font size=2>1</font></Th><Th><font size=2>1</font></Th></TR>
+</TABLE>
+</TR></TABLE>
+<BR>
+<FONT SIZE=+2><B>Footprint</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=60%>
+<TR valign=middle><TH>Cell Name</TH><TH>Area</TH></TR>
+<TR><TH><FONT>M1_MUX1X</FONT></TH>
+<TD align=center>71.54000</TD></TR>
+</TABLE>
+<BR>
+<BR>
+<FONT SIZE=+2><B>Pin Capacitance Information</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH>
+<TH colspan=3>Pin Cap(pf) </TH>
+<TH colspan=1>Max Cap(pf) </TH>
+</TR>
+<TR>
+<TH>S</TH>
+<TH>X1</TH>
+<TH>X2</TH>
+<TH>VOUT</TH>
+</TR>
+<TR><Th><font>M1_MUX1X</font></Th>
+<TD align=center>0.00184</TD>
+<TD align=center>0.00079</TD>
+<TD align=center>0.00068</TD>
+<TD align=center>0.01683</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT SIZE=+2><B>Leakage Information</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH><TH colspan=3>Leakage(nW)</TH>
+</TR><TR><TH>Min.</TH><TH>Avg</TH><TH>Max.</TH></TR>
+<TR><Th><font>M1_MUX1X</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.07609</TD>
+<TD align=center>0.08295</TD>
+</TABLE>
+<BR>
+<!--NewPage-->
+<BR>
+<FONT SIZE=+2><B>Delay Information</B></FONT>
+<BR>
+<BR>
+<FONT><B>Delay(ns) to VOUT rising (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH><TH rowspan=2>Timing Arc(Dir)</TH>
+<TH rowspan=2>When</TH>
+<TH colspan=3>Delay(ns)</TH></TR><TR><TH>First</TH><TH>Mid</TH><TH>Last</TH></TR>
+<BR>
+<TR><TH rowspan=4>M1_MUX1X</TH>
+<Th><font>S->VOUT (RR)</font></Th>
+<Th><font>(!X1 * X2)</font></Th>
+<TD align=center>71.55020</TD>
+<TD align=center>346.62200</TD>
+<TD align=center>346.62200</TD>
+</TR>
+<TR>
+<Th><font>S->VOUT (FR)</font></Th>
+<Th><font>(X1 * !X2)</font></Th>
+<TD align=center>96.97170</TD>
+<TD align=center>461.59400</TD>
+<TD align=center>461.59400</TD>
+</TR>
+<TR>
+<Th><font>X1->VOUT (RR)</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>71.48870</TD>
+<TD align=center>348.13400</TD>
+<TD align=center>348.13400</TD>
+</TR>
+<TR>
+<Th><font>X2->VOUT (RR)</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>76.32930</TD>
+<TD align=center>384.30800</TD>
+<TD align=center>384.30800</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT><B>Delay(ns) to VOUT falling (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH><TH rowspan=2>Timing Arc(Dir)</TH>
+<TH rowspan=2>When</TH>
+<TH colspan=3>Delay(ns)</TH></TR><TR><TH>First</TH><TH>Mid</TH><TH>Last</TH></TR>
+<BR>
+<TR><TH rowspan=4>M1_MUX1X</TH>
+<Th><font>S->VOUT (FF)</font></Th>
+<Th><font>(!X1 * X2)</font></Th>
+<TD align=center>100.61500</TD>
+<TD align=center>301.01900</TD>
+<TD align=center>301.01900</TD>
+</TR>
+<TR>
+<Th><font>S->VOUT (RF)</font></Th>
+<Th><font>(X1 * !X2)</font></Th>
+<TD align=center>104.19100</TD>
+<TD align=center>248.60900</TD>
+<TD align=center>248.60900</TD>
+</TR>
+<TR>
+<Th><font>X1->VOUT (FF)</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>97.44450</TD>
+<TD align=center>291.17300</TD>
+<TD align=center>291.17300</TD>
+</TR>
+<TR>
+<Th><font>X2->VOUT (FF)</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>104.01800</TD>
+<TD align=center>332.40500</TD>
+<TD align=center>332.40500</TD>
+</TR>
+</TABLE>
+<BR>
+<!--NewPage-->
+<BR>
+<FONT SIZE=+2><B>Power Information</B></FONT>
+<BR>
+<BR>
+<FONT><B>Internal switching power(pJ) to VOUT rising (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH><TH rowspan=2>Input</TH>
+<TH rowspan=2>When</TH>
+<TH colspan=3>Power(pJ)</TH></TR><TR><TH>first</TH><TH>mid</TH><TH>last</TH></TR>
+<TR><TH rowspan=8>M1_MUX1X</TH>
+<Th><font>S</font></Th>
+<Th><font>(X1 * !X2)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>S</font></Th>
+<Th><font>(X1 * !X2)</font></Th>
+<TD align=center>0.00030</TD>
+<TD align=center>0.00040</TD>
+<TD align=center>0.00040</TD>
+</TR>
+<TR>
+<Th><font>S</font></Th>
+<Th><font>(!X1 * X2)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>S</font></Th>
+<Th><font>(!X1 * X2)</font></Th>
+<TD align=center>0.00022</TD>
+<TD align=center>0.00041</TD>
+<TD align=center>0.00041</TD>
+</TR>
+<TR>
+<Th><font>X1</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>X1</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.00020</TD>
+<TD align=center>0.00030</TD>
+<TD align=center>0.00030</TD>
+</TR>
+<TR>
+<Th><font>X2</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>X2</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.00021</TD>
+<TD align=center>0.00030</TD>
+<TD align=center>0.00030</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT><B>Internal switching power(pJ) to VOUT falling (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH><TH rowspan=2>Input</TH>
+<TH rowspan=2>When</TH>
+<TH colspan=3>Power(pJ)</TH></TR><TR><TH>first</TH><TH>mid</TH><TH>last</TH></TR>
+<TR><TH rowspan=8>M1_MUX1X</TH>
+<Th><font>S</font></Th>
+<Th><font>(X1 * !X2)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>S</font></Th>
+<Th><font>(X1 * !X2)</font></Th>
+<TD align=center>0.00024</TD>
+<TD align=center>0.00035</TD>
+<TD align=center>0.00035</TD>
+</TR>
+<TR>
+<Th><font>S</font></Th>
+<Th><font>(!X1 * X2)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>S</font></Th>
+<Th><font>(!X1 * X2)</font></Th>
+<TD align=center>0.00029</TD>
+<TD align=center>0.00051</TD>
+<TD align=center>0.00051</TD>
+</TR>
+<TR>
+<Th><font>X1</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>X1</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.00021</TD>
+<TD align=center>0.00033</TD>
+<TD align=center>0.00033</TD>
+</TR>
+<TR>
+<Th><font>X2</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>X2</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.00025</TD>
+<TD align=center>0.00036</TD>
+<TD align=center>0.00036</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT><B>Passive power(pJ) for S rising (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH>
+<TH rowspan=2>When</TH>
+</TH><TH colspan=3>Power(pJ)</TH></TR><TR><TH>first</TH><TH>mid</TH><TH>last</TH></TR>
+<TR><TH rowspan=4>M1_MUX1X</TH>
+<Th><font>(X1 * X2 * VOUT)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>(X1 * X2 * VOUT)</font></Th>
+<TD align=center>0.00031</TD>
+<TD align=center>0.00058</TD>
+<TD align=center>0.00058</TD>
+</TR>
+<TR>
+<Th><font>(!X1 * !X2 * !VOUT)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>(!X1 * !X2 * !VOUT)</font></Th>
+<TD align=center>0.00012</TD>
+<TD align=center>0.00020</TD>
+<TD align=center>0.00020</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT><B>Passive power(pJ) for S falling (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH>
+<TH rowspan=2>When</TH>
+</TH><TH colspan=3>Power(pJ)</TH></TR><TR><TH>first</TH><TH>mid</TH><TH>last</TH></TR>
+<TR><TH rowspan=4>M1_MUX1X</TH>
+<Th><font>(X1 * X2 * VOUT)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>(X1 * X2 * VOUT)</font></Th>
+<TD align=center>0.00035</TD>
+<TD align=center>0.00066</TD>
+<TD align=center>0.00066</TD>
+</TR>
+<TR>
+<Th><font>(!X1 * !X2 * !VOUT)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>(!X1 * !X2 * !VOUT)</font></Th>
+<TD align=center>0.00016</TD>
+<TD align=center>0.00026</TD>
+<TD align=center>0.00026</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT><B>Passive power(pJ) for X1 rising (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH>
+<TH rowspan=2>When</TH>
+</TH><TH colspan=3>Power(pJ)</TH></TR><TR><TH>first</TH><TH>mid</TH><TH>last</TH></TR>
+<TR><TH rowspan=2>M1_MUX1X</TH>
+<Th><font>(S * X2 * VOUT) + (S * !X2 * !VOUT)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>(S * X2 * VOUT) + (S * !X2 * !VOUT)</font></Th>
+<TD align=center>0.00009</TD>
+<TD align=center>0.00009</TD>
+<TD align=center>0.00009</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT><B>Passive power(pJ) for X1 falling (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH>
+<TH rowspan=2>When</TH>
+</TH><TH colspan=3>Power(pJ)</TH></TR><TR><TH>first</TH><TH>mid</TH><TH>last</TH></TR>
+<TR><TH rowspan=2>M1_MUX1X</TH>
+<Th><font>(S * X2 * VOUT) + (S * !X2 * !VOUT)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>(S * X2 * VOUT) + (S * !X2 * !VOUT)</font></Th>
+<TD align=center>0.00011</TD>
+<TD align=center>0.00011</TD>
+<TD align=center>0.00011</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT><B>Passive power(pJ) for X2 rising (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH>
+<TH rowspan=2>When</TH>
+</TH><TH colspan=3>Power(pJ)</TH></TR><TR><TH>first</TH><TH>mid</TH><TH>last</TH></TR>
+<TR><TH rowspan=2>M1_MUX1X</TH>
+<Th><font>(!S * X1 * VOUT) + (!S * !X1 * !VOUT)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>(!S * X1 * VOUT) + (!S * !X1 * !VOUT)</font></Th>
+<TD align=center>0.00008</TD>
+<TD align=center>0.00008</TD>
+<TD align=center>0.00008</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT><B>Passive power(pJ) for X2 falling (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH>
+<TH rowspan=2>When</TH>
+</TH><TH colspan=3>Power(pJ)</TH></TR><TR><TH>first</TH><TH>mid</TH><TH>last</TH></TR>
+<TR><TH rowspan=2>M1_MUX1X</TH>
+<Th><font>(!S * X1 * VOUT) + (!S * !X1 * !VOUT)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>(!S * X1 * VOUT) + (!S * !X1 * !VOUT)</font></Th>
+<TD align=center>0.00010</TD>
+<TD align=center>0.00010</TD>
+<TD align=center>0.00010</TD>
+</TR>
+</TABLE>
+<BR>
+<DIV class=NOPRINT>
+<HR>
+<TABLE BORDER=0 WIDTH=100%>
+<TR>
+<TD ALIGN=LEFT><TABLE BORDER=5><TD><em><A hREF="INVERTER_M1.html">Prev (INVERTER_M1)</A></em></TD></TABLE>
+<TD ALIGN=RIGHT><TABLE BORDER=5><TD><em><A hREF="M1_MUX2X.html">Next (M1_MUX2X)</A></em></TD></TABLE>
+</TR></TABLE>
+</DIV>
+</BODY>
+</HTML>
